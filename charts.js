@@ -119,7 +119,7 @@ var bubbleLayout = {
 };
 
 // 3. Use Plotly to plot the data with the layout.
-Plotly.newPlot( Plotly.newPlot("bubble", bubbleData, bubbleLayout))
+Plotly.newPlot("bubble", bubbleData, bubbleLayout);
 
 // Deliverable 3
 // Create a variable that holds the samples array. 
